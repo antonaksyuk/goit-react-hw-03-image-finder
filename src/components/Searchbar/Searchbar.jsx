@@ -18,7 +18,6 @@ export default class SerchBar extends Component {
     this.setState({ query: e.target.value.toLowerCase() })
   };
 
-
     render() {
       return (
         <header className="Searchbar">
